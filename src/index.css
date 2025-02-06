@@ -19,7 +19,9 @@
   --primary-color: #161616;
 
 }
-
+* ,html , body{
+    box-sizing: border-box
+}
 .retro-shadow {
   box-shadow: 0px 6px 0px 1px rgba(0, 0, 0, 1); 
 }
@@ -43,4 +45,9 @@
 
 .animation-bounce{
   animation: bounce 1s ease infinite;
+}
+
+.light-button:hover{
+  background-color: var(--primary-color);
+  color:var(--background-color)
 }
