@@ -1,22 +1,26 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from './components/Home'
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Projects from "./pages/Projects";
-
+import Home2 from './components/Home2';
+import Navbar from './components/Navbar';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+import Works from './components/Works';
+import Footer from './components/Footer';
 function App() {
   return (
-      <div className="w-full  bg-[var(--background-color)]">
-        <Routes>
-          <Route path="/" element={<Home />} /> {/* Home page route */}
-          <Route path="/about" element={<About />} /> {/* About page route */}
-          <Route path="/contact" element={<Contact />} />{" "}
-          {/* Contact page route */}
-          <Route path="/projects" element={<Projects />} />{" "}
-          {/* Projects page route */}
-        </Routes>
-      </div>
+    <div className="w-full grid-background">
+      <Navbar />
+      {/* <Routes>
+          <Route path="/" element={<Home2 />} /> 
+          <Route path="/about" element={<About />} /> 
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes> */}
+      <Home2 />
+      <AboutMe />
+      <Projects/>
+      <Works />
+      <Footer />
+    </div>
   );
 }
 
