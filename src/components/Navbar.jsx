@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="w-full shadow-md bg-white sticky top-0 z-50">
       <div className="md:w-[90%] h-[10vh] mx-auto w-full py-4 flex flex-row justify-between items-center">
-        <div className="text-2xl font-semibold">Deepanshu Sharma</div>
+        <div className="md:text-2xl text-xl font-semibold">Deepanshu Sharma</div>
         <div className=" flex flex-row items-center gap-[1.5rem] w-[30%] justify-between text-lg">
           <a href="#home">
             <div>Home</div>
