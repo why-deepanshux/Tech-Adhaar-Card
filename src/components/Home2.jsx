@@ -27,6 +27,7 @@ const Home2 = () => {
       <div className="md:w-[55%] w-full flex justify-end items-center">
         <video
           src={main}
+          preload='auto'
           autoPlay
           loop
           muted
