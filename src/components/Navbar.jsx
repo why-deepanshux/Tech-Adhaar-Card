@@ -7,8 +7,10 @@ const Navbar = () => {
   return (
     <div className="w-full shadow-md bg-white sticky top-0 z-50">
       <div className="md:w-[90%] h-[10vh] mx-auto w-full py-4 flex flex-row justify-between items-center">
-        <div className="md:text-2xl text-xl font-semibold">Deepanshu Sharma</div>
-        <div className=" flex flex-row items-center gap-[1.5rem] w-[30%] justify-between text-lg">
+        <div className="md:text-2xl text-xl font-semibold">
+          Deepanshu Sharma
+        </div>
+        <div className="md:flex flex-row items-center gap-[1.5rem] w-[30%] justify-between text-lg hidden">
           <a href="#home">
             <div>Home</div>
           </a>
@@ -25,7 +27,7 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-[1rem] items-center">
           <a href="https://github.com/why-deepanshux">
-            <div className="h-[40px] w-[40px]  rounded-full">
+            <div className="h-[40px] w-[40px]  rounded-full hidden md:block">
               <img src={github} alt="github icon" className="w-full" />
             </div>
           </a>
@@ -39,7 +41,7 @@ const Navbar = () => {
               />
             </div>
           </a>
-          <div className="h-[40px] w-[40px] rounded-full bg-black">
+          <div className="h-[40px] w-[40px] rounded-full bg-black hidden md:block">
             {/* <img src={twitter} alt="x.logo" className="h-full w-full" /> */}
           </div>
         </div>
