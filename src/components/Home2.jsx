@@ -15,7 +15,7 @@ const Home2 = () => {
           A Software Engineer and Web Developer
         </div>
         <a
-          href="https://drive.google.com/file/d/1HURLDHKJhTXDBm9IczTsN6kGGOch8m_J/view?usp=sharin"
+          href="https://drive.google.com/file/d/1ow05zUv_HE_A6snNx8i8TGyL8AsOY8Kh/view?usp=drive_link"
           target="_blank"
         >
           <button className=" px-8 py-2  bg-[var(--primary-color)] text-[var(--background-color)] mt-1 text-lg cursor-pointer">
