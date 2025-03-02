@@ -129,7 +129,7 @@ const Projects = () => {
             </div>
             <div className="flex flex-row gap-[1rem]">
               <a
-                href="https://github.com/why-deepanshux/Being-Baniya"
+                href="https://github.com/why-deepanshux/Algo-Visualizer"
                 target="_blank"
               >
                 <button className="secondary-button px-4 py-1 mt-2">
@@ -137,7 +137,7 @@ const Projects = () => {
                   <div>GitHub</div>
                 </button>
               </a>
-              <a href="https://being-baniya.vercel.app/" target="_blank">
+              <a href="https://algohow.vercel.app/" target="_blank">
                 <button className="secondary-button px-4 py-1 mt-2">
                   <div>Visit</div>
                 </button>
